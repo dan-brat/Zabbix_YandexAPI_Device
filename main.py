@@ -21,7 +21,7 @@ try:
                 z = dict(z)
                 for keyz, valuez in z.items():
                     if keyz == 'state':
-                        nameelement = "/tmp/script/Servernaya_1/" + valuez.get('instance')
+                        nameelement = "тут указываем путь для создания файлов с данными" + valuez.get('instance')
                         print(valuez.get('value'))
                         with open(nameelement, "w+") as text_file:
                             text_file.write(str(valuez.get('value')))
