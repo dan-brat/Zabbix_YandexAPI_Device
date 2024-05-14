@@ -5,7 +5,7 @@ import requests
 
 from requests.structures import CaseInsensitiveDict
 
-url = "https://api.iot.yandex.net/v1.0/devices/_тут id устройства"  #Заменить ID своего датчика
+url = "https://api.iot.yandex.net/v1.0/devices/тут id устройства"  #Заменить "тут id устройства" на ID своего датчика
 
 headers = CaseInsensitiveDict()
 
